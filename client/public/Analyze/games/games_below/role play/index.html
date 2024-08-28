@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Constitution Role-Playing Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <h1>Constitution Role-Playing Game</h1>
+        <div id="character-selection">
+            <h2>Select Your Role</h2>
+            <button onclick="selectCharacter('Judge')">Judge</button>
+            <button onclick="selectCharacter('Lawyer')">Lawyer</button>
+        </div>
+        <div id="judge-scenario" style="display: none;">
+            <h2>Judge Role</h2>
+            <!-- Image for the Judge role -->
+            <img src="images/judge.png" alt="Judge" id="judge-image" style="width: 200px;">
+            <p>Welcome, Judge! Your scenario is about upholding the law and making fair decisions in court.</p>
+            <!-- Additional judge-specific content -->
+        </div>
+        <div id="lawyer-scenario" style="display: none;">
+            <h2>Lawyer Role</h2>
+            <!-- Image for the Lawyer role -->
+            <img src="images/lawyer.png" alt="Lawyer" id="lawyer-image" style="width: 200px;">
+            <p>Welcome, Lawyer! Your scenario is to defend your client in court and present compelling arguments.</p>
+            <!-- Additional lawyer-specific content -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

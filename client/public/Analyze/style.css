@@ -1,0 +1,130 @@
+/* Reset and global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Progress bar container */
+.progress-container {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Progress bar list */
+#progressbar {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    color: lightgrey;
+}
+
+#progressbar li {
+    flex: 1;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+}
+
+#progressbar li.active {
+    color: #2F8D46;
+}
+
+/* Progress bar background */
+.progress {
+    height: 20px;
+    background-color: lightgray;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.progress-bar {
+    background-color: #2F8D46;
+    width: 0;
+    height: 100%;
+    transition: width 0.4s ease-in-out;
+}
+
+/* Step containers */
+.step-container fieldset {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    position: relative;
+    display: none;
+}
+
+.step-container fieldset:first-of-type {
+    display: block;
+}
+
+/* Heading styles */
+h2 {
+    color: #2F8D46;
+    margin-top: 0;
+    text-align: center;
+}
+
+/* Button styles */
+.next-step,
+.previous-step {
+    width: 100px;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px;
+    float: right;
+}
+
+.next-step {
+    background: #2F8D46;
+}
+
+.previous-step {
+    background: #616161;
+}
+
+.next-step:hover,
+.next-step:focus {
+    background-color: #1e6f3e;
+}
+
+.previous-step:hover,
+.previous-step:focus {
+    background-color: #4d4d4d;
+}
+
+/* Dropdown and answer box positioning */
+.dropdown-container {
+    margin-left: 40px; /* Margin from the left side */
+}
+
+/* Finish screen styles */
+.finish {
+    text-align: center;
+}

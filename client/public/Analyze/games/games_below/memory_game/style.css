@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-image: url('https://media.istockphoto.com/id/914949096/vector/vector-doodle-cartoon-set-of-indian-designs.jpg?s=612x612&w=0&k=20&c=PHRbnKv80PhpgLF1Z50fAWVNnP9zaO6e45TbYbW9vwE=');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#game-board {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(4, 100px);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.card {
+    width: 100px;
+    height: 100px;
+    background-color: olive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 24px;
+    color: white;
+    border-radius: 5px;
+}
+
+.card.flipped {
+    background-color: darkgreen;
+}
+
+#start-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    font-size: 1cm;
+}

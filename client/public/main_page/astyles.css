@@ -1,0 +1,175 @@
+/* General Styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.menu-icon, .header-left, .header-right {
+    display: flex;
+    align-items: center;
+}
+
+.material-icons-outlined {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Sidebar Styles */
+#sidebar {
+    background-color: #fff;
+    box-shadow: 2px 0 4px rgba(0,0,0,0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 250px;
+    overflow: auto;
+    transition: transform 0.3s ease;
+}
+
+.sidebar-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+}
+
+.sidebar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.sidebar-brand .material-icons-outlined {
+    margin-right: 10px;
+}
+
+.sidebar-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar-list-item {
+    border-bottom: 1px solid #ddd;
+}
+
+.sidebar-list-item a {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    color: #333;
+    text-decoration: none;
+}
+
+.sidebar-list-item a:hover {
+    background-color: #f0f0f0;
+}
+
+.sidebar-list-item a .material-icons-outlined {
+    margin-right: 10px;
+}
+
+/* Main Content Styles */
+.main-container {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+.main-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Card Styles */
+.card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin: 10px;
+}
+
+.card-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-inner .material-icons-outlined {
+    font-size: 36px;
+}
+
+.card .text-primary {
+    color: #007bff;
+}
+
+.font-weight-bold {
+    font-weight: bold;
+}
+
+/* Charts Styles */
+.charts-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin: 10px;
+}
+
+.chart-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Articles Page Styles */
+.container {
+    padding: 20px;
+}
+
+.article-section {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.article-section h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.article-section p {
+    font-size: 16px;
+}
+
+.back-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.back-button:hover {
+    background-color: #0056b3;
+}

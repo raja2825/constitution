@@ -1,0 +1,83 @@
+/* Specific styles for games below age 18 */
+/* body {
+    font-family: Arial, sans-serif;
+    /* background-image: url('/assets/bcad6165-ba9c-45d3-9db0-6ba19116fe4b.jpeg'); 
+    background-image: url('assets/below.jpg');
+
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+    background-color: #2e8b57;
+} */
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://www.trinityairtravel.com/bblog/7980_second.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-color: #2e8b57;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #ffffff;
+    font-weight: 5000;
+    font-size:1.5cm;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.game-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns in each row */
+    width: 150%;
+    gap: 20px; /* Spacing between the boxes */
+    max-width: 1500px; /* Limits the maximum width of the grid */
+    /* border: 1px solid black; */
+}
+
+.game-column {
+    background-color: #ffffffb8;
+    /* border:2px solid white; */
+    box-shadow: 2px 2px 5px 1px #deb369;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.game-column:hover {
+    transform: scale(1.05); /* Slightly enlarge the box on hover */
+    background-color: white;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+p {
+    margin: 10px 0 0;
+}
+

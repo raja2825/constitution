@@ -1,0 +1,62 @@
+/* Specific styles for games below age 18 */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://cdn.pixabay.com/photo/2024/02/23/06/37/ai-generated-8591418_640.png');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #ffffff;
+    font-weight: 5000;
+    font-size:1.5cm;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.game-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns in each row */
+    gap: 20px; /* Spacing between the boxes */
+    width: 100%;
+    max-width: 1500px; /* Limits the maximum width of the grid */
+}
+
+.game-column {
+    background-color: #ffffffb8;
+    /* border:2px solid white; */
+    box-shadow: 2px 2px 5px 1px #deb369;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.game-column:hover {
+    transform: scale(1.05); /* Slightly enlarge the box on hover */
+    background-color: white;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+p {
+    margin: 10px 0 0;
+}

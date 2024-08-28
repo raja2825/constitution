@@ -1,0 +1,89 @@
+/* Basic Reset */
+body, h1, p, div, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Style */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa;
+    color: #333;
+    text-align: center;
+    background-image: url('https://media.istockphoto.com/id/1218473959/vector/black-question-mark.jpg?s=612x612&w=0&k=20&c=ifwnh6ETDDshoL_vddFWbdbseFN0UrtYMi8JfQHBitQ=');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+}
+
+/* Header Style */
+header {
+    margin-bottom: 20px;
+}
+
+/* Quiz Container Style */
+#quiz-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Timer Style */
+#timer {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+/* Question Style */
+#question {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+/* Option Button Style */
+.option {
+    display: block;
+    margin: 10px auto;
+    padding: 15px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 250px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* Hint Button Style */
+#hintBtn {
+    padding: 10px 20px;
+    background-color: #FFC107;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+/* Next Button Style */
+#nextBtn {
+    padding: 10px 20px;
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none; /* Initially hidden */
+}
+
+/* Result Style */
+#result {
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+/* Score Style */
+#score {
+    font-size: 1.2em;
+    margin-top: 20px;
+}

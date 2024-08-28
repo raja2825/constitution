@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    text-align: center;
+    background-image: url('https://t3.ftcdn.net/jpg/05/25/05/36/360_F_525053635_uIM8Ay8JD5NUAyLwjtOccUZtU9f3KDW7.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: #333;
+}
+
+#clues-container {
+    margin-top: 20px;
+    text-align: left;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+input
+{
+    border: none;
+    font-size: 0.7cm;
+
+}
+input:focus{
+    outline: none;
+}
+
+.clue {
+    padding: 10px;
+    /* border: 1px solid #333; */
+    margin: 10px 0;
+    background-color: #e0f7fa8e;
+    border-radius: 10px;
+}
+.clue p{
+    color: rgb(0, 0, 0);
+    font-size: 0.7cm;
+    
+}
+
+#hint, #result {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #ffffff;
+    font-size: 0.5cm;
+    font-weight: bold;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(210, 166, 34);
+    border-radius: 5px;
+    font-weight: bold;
+}
+h1,p{
+    color: white;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1cm;
+}
+p{
+    font-size: 0.6cm;
+}
+

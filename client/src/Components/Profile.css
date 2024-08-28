@@ -1,0 +1,12 @@
+.app {
+  display: flex;
+  height: 100vh;
+  background-color: #2c2c54;
+}
+
+/* Basic reset for box-sizing */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}

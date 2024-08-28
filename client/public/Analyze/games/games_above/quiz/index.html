@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Constitution Quiz Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Constitution Quiz Game</h1>
+    </header>
+    <main>
+        <div id="quiz-container">
+            <div id="timer">Time Left: <span id="time">30</span> seconds</div>
+            <div id="question"></div>
+            <div id="options">
+                <button class="option" onclick="selectAnswer(0)"></button>
+                <button class="option" onclick="selectAnswer(1)"></button>
+                <button class="option" onclick="selectAnswer(2)"></button>
+                <button class="option" onclick="selectAnswer(3)"></button>
+            </div>
+            <button id="hintBtn" onclick="showHint()">Show Hint</button>
+            <button id="nextBtn" onclick="nextQuestion()">Next</button>
+            <div id="result"></div>
+            <div id="score">Score: <span id="scoreValue">0</span></div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

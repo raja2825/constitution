@@ -1,0 +1,63 @@
+/* Basic Reset */
+body, h1, p, div, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Style */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://parade.com/.image/t_share/MTkwNTgxMjA5MjgxMjA5NDY5/best-online-crossword-puzzles-jpg.jpg');
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Header Style */
+header {
+    margin-bottom: 20px;
+}
+
+/* Crossword Container Style */
+#crossword-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Crossword Board Style */
+#crossword {
+    display: grid;
+    grid-template-columns: repeat(10, 40px); /* Adjust size for your crossword */
+    grid-gap: 2px;
+    margin-bottom: 20px;
+}
+
+/* Crossword Cell Style */
+.crossword-cell {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #333;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+/* Clue Style */
+#clues {
+    text-align: left;
+}
+
+/* Hint Button Style */
+#hintBtn {
+    padding: 10px 20px;
+    background-color: #FFC107;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
